@@ -28,5 +28,11 @@
     "prisma": "^7.4.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "npx prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint"
   }
 }
